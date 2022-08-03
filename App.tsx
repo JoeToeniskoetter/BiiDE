@@ -3,6 +3,7 @@ import Lottie from 'lottie-react-native';
 import {Animated, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 const lottieFile = require('./assets/lottie/Biide_intro.json');
 import LinearGradient from 'react-native-linear-gradient';
+import SplashScreen from 'react-native-splash-screen';
 
 export default function AnimationWithImperativeApi() {
   const animationRef = useRef<Lottie>(null);
@@ -17,6 +18,7 @@ export default function AnimationWithImperativeApi() {
 
   useEffect(() => {
     animationRef.current?.play();
+    SplashScreen.hide();
   }, []);
 
   return (

@@ -5016,7 +5016,7 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
-"lottie-ios@^3.2.3", "lottie-ios@3.2.3":
+"lottie-ios@^3.2.3":
   "integrity" "sha512-mubYMN6+1HXa8z3EJKBvNBkl4UoVM4McjESeB2PgvRMSngmJtC5yUMRdhbbrIAn5Liu3hFGao/14s5hQIgtkRQ=="
   "resolved" "https://registry.npmjs.org/lottie-ios/-/lottie-ios-3.2.3.tgz"
   "version" "3.2.3"
@@ -6065,20 +6065,17 @@
   "resolved" "https://registry.npmjs.org/react-native-linear-gradient/-/react-native-linear-gradient-2.6.2.tgz"
   "version" "2.6.2"
 
-"react-native-lottie-splash-screen@^1.0.1":
-  "integrity" "sha512-7V/ih/IvERkRXvwZ8pSZTYgRrKXYPhRXr8VWPpnGg0Bu1XQMP582bX9i2T7N30v/i3TEQjRowoExxODCG5yP7Q=="
-  "resolved" "https://registry.npmjs.org/react-native-lottie-splash-screen/-/react-native-lottie-splash-screen-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "lottie-ios" "3.2.3"
-    "lottie-react-native" "^5.1.3"
-
 "react-native-safe-modules@^1.0.3":
   "integrity" "sha512-DUxti4Z+AgJ/ZsO5U7p3uSCUBko8JT8GvFlCeOXk9bMd+4qjpoDvMYpfbixXKgL88M+HwmU/KI1YFN6gsQZyBA=="
   "resolved" "https://registry.npmjs.org/react-native-safe-modules/-/react-native-safe-modules-1.0.3.tgz"
   "version" "1.0.3"
   dependencies:
     "dedent" "^0.6.0"
+
+"react-native-splash-screen@^3.3.0":
+  "integrity" "sha512-rGjt6HkoSXxMqH4SQUJ1gnPQlPJV8+J47+4yhgTIan4bVvAwJhEeJH7wWt9hXSdH4+VfwTS0GTaflj1Tw83IhA=="
+  "resolved" "https://registry.npmjs.org/react-native-splash-screen/-/react-native-splash-screen-3.3.0.tgz"
+  "version" "3.3.0"
 
 "react-native@*", "react-native@>=0.46", "react-native@>=0.57.0", "react-native@0.69.3":
   "integrity" "sha512-SyGkcoEUa/BkO+wKVnv4OsnLSNfUM5zLNXS3iT/3eXjKX91/FKBH/nfR9BE1c60X5LQe/P5QYqr6WPX3TRSQkA=="

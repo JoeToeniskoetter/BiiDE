@@ -14,7 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4D66F7ED2899D94A00E95641 /* Biide_intro.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D66F7EC2899D94A00E95641 /* Biide_intro.json */; };
 		4D66F7EF2899DB3100E95641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66F7EE2899DB3100E95641 /* LaunchScreen.storyboard */; };
-		4D66F7F12899FE5E00E95641 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D66F7F02899FE5E00E95641 /* splash.png */; };
+		4D66F7F5289AA73300E95641 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D66F7F4289AA73300E95641 /* splash.png */; };
 		7699B88040F8A987B510C191 /* libPods-BiiDE-BiiDETests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BiiDE-BiiDETests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		3B4392A12AC88292D35C810B /* Pods-BiiDE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiiDE.debug.xcconfig"; path = "Target Support Files/Pods-BiiDE/Pods-BiiDE.debug.xcconfig"; sourceTree = "<group>"; };
 		4D66F7EC2899D94A00E95641 /* Biide_intro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Biide_intro.json; sourceTree = "<group>"; };
 		4D66F7EE2899DB3100E95641 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4D66F7F02899FE5E00E95641 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		4D66F7F4289AA73300E95641 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-BiiDE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiiDE.release.xcconfig"; path = "Target Support Files/Pods-BiiDE/Pods-BiiDE.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-BiiDE-BiiDETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiiDE-BiiDETests.debug.xcconfig"; path = "Target Support Files/Pods-BiiDE-BiiDETests/Pods-BiiDE-BiiDETests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-BiiDE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiiDE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				4D66F7F02899FE5E00E95641 /* splash.png */,
+				4D66F7F4289AA73300E95641 /* splash.png */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -248,10 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D66F7F12899FE5E00E95641 /* splash.png in Resources */,
 				4D66F7EF2899DB3100E95641 /* LaunchScreen.storyboard in Resources */,
 				4D66F7ED2899D94A00E95641 /* Biide_intro.json in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4D66F7F5289AA73300E95641 /* splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
