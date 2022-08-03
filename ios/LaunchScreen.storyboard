@@ -39,7 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splash.png" width="1277" height="2598"/>
+        <image name="splash.png" width="390" height="844"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

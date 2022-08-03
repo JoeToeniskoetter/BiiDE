@@ -41,7 +41,8 @@ export default function AnimationWithImperativeApi() {
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
-            marginBottom: 120,
+            marginBottom: '20%',
+            height: '50%',
           }}>
           <View style={styles.buttonContainer}>
             <TouchableOpacity
@@ -104,7 +105,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-end',
     flex: 1,
-    flexDirection: 'column',
   },
   buttonContainer: {
     flexDirection: 'row',
